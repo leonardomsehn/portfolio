@@ -8,5 +8,71 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  color:#242222;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
   }
 
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  line-height: 10px;
+  margin-top: 50px;
+}
+
+.nav-links{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.2rem;
+  color: #242222;
+}
+
+#apresentation {
+  margin-top: 10rem;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  font-size: 1.2rem;
+}
+
+.pic-container img {
+  max-width: 350px;
+  clip-path: circle(50%)
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-text h1 {
+  font-size: 2.3rem;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.button-section .cv {
+  width: 6.7rem;
+  height: 3rem;
+  border-radius: 50px;
+}
+
+.button-section .contact-info {
+  width: 6.7rem;
+  height: 3rem;
+  border-radius: 50px;
+}
