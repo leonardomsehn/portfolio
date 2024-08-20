@@ -32,35 +32,50 @@
         <div class="section-text">
           <p>Oi, eu sou</p>
           <h1>Leonardo Sehn</h1>
-          <p>Desenvolvedor Frontend</p>
+          <p class="sub-logo">Desenvolvedor Frontend</p>
           <div class="button-section">
-            <button class="cv" onclick="window.open('./assets/cv.pdf')">
+            <button class="btn" onclick="window.open('./assets/leonardosehn-curriculo.pdf')">
               Download CV
             </button>
-            <button class="contact-info" onclick="">
+            <button id="btn-contact" class="btn" onclick="">
               Contato
             </button>
           </div>
-          <div class="social-container"></div>
+          <div class="social-container">
+            <img src="/src/assets/icons8-linkedin-480.png" class="social-icons" alt="linkedin">
+            <img src="/src/assets/icons8-github-480.png" class="social-icons" alt="github">
+          </div>
         </div>
       </section>
 
       <section id="about">
-        <p></p>
-        <h1></h1>
-        <div class="pic-aside">
-          <img src="/src/assets/foto-perfill.jpg" alt="Leonardo Sehn">
-        </div>
-        <div class="section-text-about">
-          <div class="box-about">
-            <div class="experience-about"></div>
-            <div class="education-about"></div>
+        <p class="section-text-p">Saiba um pouco mais</p>
+        <h1 class="section-text-h1">Sobre mim</h1>
+        <div class="section-container">
+          <!--<div class="pic-aside">
+            <img src="/src/assets/foto-perfil.jpg" alt="Leonardo Sehn">
+          </div>-->
+            <div class="box-about">
+              <div class="about-area">
+                <img src="/src/assets/icons8-medalha-90.png" class="about-icons" alt="experience">
+                <h1>Experiência</h1>
+                <p>1+ anos<br>Desenvolvimento Frontend</p>
+              </div>
+              <div class="about-area">
+                <img src="/src/assets/icons8-educação-90.png" class="about-icons" alt="experience">
+                <h1>Educação</h1>
+                <p>Cursando 4º semestre em<br>
+                Análise e Desenvolvimento de Sistemas</p>
+                
+              </div>
+            </div>
           </div>
-          <p>Lorem ipsum consequat ut mollis dolor vestibulum nulla, interdum condimentum fringilla tellus ultricies torquent, placerat convallis curabitur nisl leo accumsan. 
-            lobortis lacinia inceptos suscipit malesuada sapien varius interdum convallis, vehicula tempor pulvinar enim aliquam posuere consectetur, 
-            vehicula fusce curabitur magna lobortis quam feugiat. vulputate aptent quisque mollis consectetur ligula cras aliquet, nullam pretium suscipit inceptos convallis orci inceptos, 
-            habitasse at orci accumsan tempus torquent. nostra ultricies imperdiet tempus lacinia iaculis nulla aliquam luctus risus, 
-            ultrices eu sollicitudin inceptos vestibulum velit tempus tellus habitant proin, lectus libero auctor urna augue euismod quis in. </p>
+        </div>
+          <p class="about-me-text">Com mais de cinco anos de experiência em design gráfico e cursando
+            Análise e Desenvolvimento de Sistemas, estou expandindo minhas
+            habilidades para o desenvolvimento web. Sou motivado pela aprendizagem
+            contínua e busco contribuir para projetos desafiadores no mundo digital.
+             </p>
         </div>
       </section>
 
