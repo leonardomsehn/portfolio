@@ -79,11 +79,11 @@ section {
 }
 
 .section-text h1 {
-  font-size: 2.3rem;
+  font-size: 3rem;
 }
 
 .sub-logo {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color:#707070;
 }
@@ -104,6 +104,11 @@ section {
   font-size: 0.8rem;
   background-color: transparent;
   border: 1px solid #242222;
+}
+
+.btn:hover {
+  background-color:#242222;
+  color: #ffffff;
 }
 
 #btn-contact {
@@ -158,7 +163,7 @@ section {
 }
 
 .section-text-h1 {
-  font-size: 2.3rem;
+  font-size: 4rem;
 }
 
 .section-text-p {
@@ -194,8 +199,8 @@ section {
   justify-content: center;
   gap: 1rem;
   margin-top: 3rem;
-  width: 40px;   /* Largura fixa do contêiner */
-  height: 40px;  /* Altura fixa do contêiner */
+  width: 50px;   /* Largura fixa do contêiner */
+  height: 50px;  /* Altura fixa do contêiner */
 }
 
 .development-skills img {
@@ -234,12 +239,11 @@ section {
 .project-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   border: 1px solid #242222;
   width: 300px;
-  height: 400px;
-  gap: 0.4rem;
+  height: 550px;
   border-radius: 30px;
   text-align: center;
 }
@@ -249,6 +253,11 @@ section {
   height: 250px;
   border-radius: 15px;
   border: 1px solid #242222;
+}
+
+.descricao {
+  max-width: 250px;
+  font-size: 1rem;
 }
 
 #contacts {
